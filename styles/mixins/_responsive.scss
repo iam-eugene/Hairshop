@@ -11,13 +11,3 @@
     }
   }
 }
-
-.container {
-  @include responsive(T) {
-    background-color: $border;
-  }
-
-  @include responsive(D) {
-    background-color: $red;
-  }
-}
