@@ -1,0 +1,13 @@
+%tag-base {
+  @include inline-flexbox;
+  @include text-style(13);
+  padding: 2px 10px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.tag-black {
+  @extend %tag-base;
+  color: $white;
+  background-color: $black;
+}
