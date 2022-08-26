@@ -1,4 +1,4 @@
-// scss-lint:disable all
+// // scss-lint:disable all
 @font-face {
   font-family: 'hairshop';
   src: url('./assets/fonts/hairshop.eot');
@@ -26,23 +26,26 @@ i {
 }
 
 .ic-call:before {
-  content: '\e902';
+  content: '\e900';
+}
+.ic-check:before {
+  content: '\e901';
 }
 .ic-eye:before {
-  content: '\e906';
+  content: '\e902';
 }
 .ic-like:before {
-  content: '\e907';
+  content: '\e903';
 }
 .ic-map:before {
-  content: '\e908';
+  content: '\e904';
 }
 .ic-search:before {
-  content: '\e90b';
+  content: '\e905';
 }
 .ic-share:before {
-  content: '\e90c';
+  content: '\e906';
 }
 .ic-star:before {
-  content: '\e90e';
+  content: '\e907';
 }
