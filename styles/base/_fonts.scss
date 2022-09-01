@@ -1,4 +1,4 @@
-// // scss-lint:disable all
+// scss-lint:disable all
 @font-face {
   font-family: 'hairshop';
   src: url('./assets/fonts/hairshop.eot');
@@ -9,43 +9,4 @@
   font-weight: normal;
   font-style: normal;
   font-display: block;
-}
-
-i {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'hairshop' !important;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.ic-call:before {
-  content: '\e900';
-}
-.ic-check:before {
-  content: '\e901';
-}
-.ic-eye:before {
-  content: '\e902';
-}
-.ic-like:before {
-  content: '\e903';
-}
-.ic-map:before {
-  content: '\e904';
-}
-.ic-search:before {
-  content: '\e905';
-}
-.ic-share:before {
-  content: '\e906';
-}
-.ic-star:before {
-  content: '\e907';
 }

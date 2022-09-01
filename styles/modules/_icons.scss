@@ -1,0 +1,43 @@
+//scss-lint:disable all
+i {
+  font-family: 'hairshop' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-call:before {
+  content: '\e900';
+}
+
+.ic-check:before {
+  content: '\e901';
+}
+
+.ic-eye:before {
+  content: '\e902';
+}
+
+.ic-like:before {
+  content: '\e903';
+}
+
+.ic-map:before {
+  content: '\e904';
+}
+
+.ic-search:before {
+  content: '\e905';
+}
+
+.ic-share:before {
+  content: '\e906';
+}
+
+.ic-star:before {
+  content: '\e907';
+}
