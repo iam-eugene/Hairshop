@@ -18,26 +18,38 @@ i {
   content: '\e901';
 }
 
-.ic-eye:before {
+.ic-chevron:before {
   content: '\e902';
 }
 
-.ic-like:before {
+.ic-close:before {
   content: '\e903';
 }
 
-.ic-map:before {
+.ic-eye:before {
   content: '\e904';
 }
 
-.ic-search:before {
+.ic-like:before {
   content: '\e905';
 }
 
-.ic-share:before {
+.ic-map:before {
   content: '\e906';
 }
 
-.ic-star:before {
+.ic-menu:before {
   content: '\e907';
+}
+
+.ic-search:before {
+  content: '\e908';
+}
+
+.ic-share:before {
+  content: '\e909';
+}
+
+.ic-star:before {
+  content: '\e90a';
 }
